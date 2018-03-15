@@ -1,0 +1,45 @@
+- name: OpenvCloud Core
+  source:
+     branch: 2.1.7
+  target:
+     branch: 2.1.8
+  url: https://github.com/0-complexity/openvcloud
+- name: OpenvCloud Frontend
+  source:
+     branch: 2.1.7
+  target:
+     branch: 2.1.8
+  url: https://github.com/0-complexity/g8vdc
+- name: OpenvCloud AYS
+  source:
+     branch: 2.1.7
+  target:
+     branch: 2.1.8
+  url: https://github.com/0-complexity/openvcloud_ays
+  ays: true
+- name: OpenvCloud Selfhealing
+  source:
+     branch: 2.1.7
+  target:
+     branch: 2.1.8
+  url: https://github.com/0-complexity/selfhealing
+
+- name: JumpScale Core
+  source:
+     branch: 7.1.7
+  target:
+     branch: 7.1.8
+  url: https://github.com/jumpscale7/jumpscale_core7
+- name: JumpScale Portal
+  source:
+     branch: 7.1.7
+  target:
+     branch: 7.1.8
+  url: https://github.com/jumpscale7/jumpscale_portal
+- name: JumpScale AYS
+  source:
+     branch: 7.1.7
+  target:
+     branch: 7.1.8
+  ays: true
+  url: https://github.com/jumpscale7/ays_jumpscale7
